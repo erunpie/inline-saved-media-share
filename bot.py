@@ -225,7 +225,7 @@ def cancel(update: Update, context: CallbackContext) :
 def list_bot(update: Update, context: CallbackContext):
     update.message.reply_text('-/addgif\n-/addsticker\n-/addphoto\n-/addvideo\n-/info')
 def info(update: Update, context: CallbackContext) :
-    update.message.reply_text('This is really simple bot wich is written by | @e_run_pie | \nIf you want source code  visit : \nhttps://github.com/erunpie/inline-video')
+    update.message.reply_text('This is really simple bot wich is written by | @e_run_pie | \nIf you want source code  visit : \nhttps://github.com/erunpie/inline-saved-media-share')
     
         
 def main():
